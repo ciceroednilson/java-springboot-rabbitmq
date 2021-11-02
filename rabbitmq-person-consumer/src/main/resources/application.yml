@@ -1,0 +1,16 @@
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5673
+    username: cicero
+    password: 123456
+    queue: queue.person
+
+server:
+  port: 7000
+
+mysql-datasource:
+  driver: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/db_store
+  username: root
+  password: 123456

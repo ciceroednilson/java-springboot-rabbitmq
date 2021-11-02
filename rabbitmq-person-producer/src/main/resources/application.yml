@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5673
+    username: cicero
+    password: 123456
+    exchange: exchanges.broker
+    queue: queue.person
+    routingkey: routing_key_person
