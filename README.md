@@ -37,31 +37,45 @@ MySQL
 
 * http://localhost:9000/
 
+Tela de login.
+
 ![login](https://github.com/ciceroednilson/java-springboot-rabbitmq/blob/master/images/rabbit-login.png)
 
 ### Criando uma Queue no RabbitMQ.
 
+Tela para criação da Queue.
+
 ![queue](https://github.com/ciceroednilson/java-springboot-rabbitmq/blob/master/images/create-queue.png)
 
 ### Criando Exchange no RabbitMQ.
+
+Tela para criação do Exchange.
 
 ![exchange](https://github.com/ciceroednilson/java-springboot-rabbitmq/blob/master/images/create-exchange-broker.png)
 
 
 ### Adicionando Routing Key no Exchange criado.
 
+Criando Routing key para enviar a mensagem para a fila.
+
 ![routingkey](https://github.com/ciceroednilson/java-springboot-rabbitmq/blob/master/images/routingkey.png)
 
 ### Publicando uma mensagem.
+
+Api rest que envia uma mensagem para o RabbitMQ.
 
 ![postman](https://github.com/ciceroednilson/java-springboot-rabbitmq/blob/master/images/postman.png)
 
 ### Visualizando mensagem no RabbitMQ.
 
+Mensagens no formato JSON.
+
 ![mensagem](https://github.com/ciceroednilson/java-springboot-rabbitmq/blob/master/images/mensagem.png)
 
 
 ### Visualizando os dados inseridos no MySQL.
+
+Dados inseridos através do consumer.
 
 ![mysql](https://github.com/ciceroednilson/java-springboot-rabbitmq/blob/master/images/mysql.png)
 
